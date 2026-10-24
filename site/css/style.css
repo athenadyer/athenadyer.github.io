@@ -30,12 +30,12 @@
     padding: 180px 0;
     border-bottom: 1px solid #5F7B94;
     letter-spacing: 3px;
-    background-color:lightblue
+    background-color: lightblue
 }
 
 .intro-section h1 {
     margin-bottom: 10px;
-    font-size: 65px;
+    font-size: 75px;
 }
 
 .intro-section p.welcome-text {
@@ -51,13 +51,16 @@
     padding-bottom: 160px;
     border-bottom: 1px solid #5F7B94;
 }
+
 .about-section .col-12.col-md-8 {
     padding-left: 90px;
     padding-right: 120px;
 }
+
 .about-section p {
     line-height: 2.6;
 }
+
 .about-heading {
     text-align: center;
     margin-top: 0px;
@@ -106,20 +109,24 @@ p {
     font-size: 16px;
     color: black;
 }
+
 .welcome-text {
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     color: black;
 }
+
 h4 {
     font-size: 18px;
     text-align: center;
     font-family: "Instrument Serif", serif;
     color: black;
 }
+
 footer {
     background-color: #5F7B94;
 }
+
 footer h4 {
     padding-top: 10px;
 }
@@ -135,4 +142,110 @@ footer .links a {
     color: black;
     text-decoration: none;
     font-size: 16px;
+}
+
+.resume-section {
+    padding: 24px 0 45px;
+    text-align: center;
+    background-color: white;
+    border-bottom: 1px solid #5F7B94;
+    letter-spacing: 1px;
+}
+
+.resume-section .container-fulid{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.resume-section p {
+    line-height: 1.4;
+}
+
+.about-heading .resume-section {
+    text-align: center;
+    margin: 0 0 35px;
+    font-size: 48px;
+    font-family: "Instrument Serif", serif;
+    color: black;
+}
+
+.resume-adress {
+    margin-top: -20px;
+    margin-bottom: 10px;
+    line-height: 1;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.resume-details p {
+    width: 100%;
+    max-width: none;
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.resume-category {
+    margin-bottom: 22px;
+    text-align: left;
+    width: 100%;
+}
+
+.resume-category h3 {
+    font-family: "Instrument Serif", serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    border-bottom: 2px solid #5F7B94;
+    padding-bottom: 4px;
+    margin-bottom: 12px;
+}
+
+.resume-jobs {
+    text-align: left;
+    margin-bottom: 14px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.resume-jobs h4 {
+    font-family: "Instrument Serif", serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 3px;
+    text-align: left;
+}
+
+.resume-jobs p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    line-height: 1.4;
+    text-align: left;
+    margin: 2px 0;
+}
+
+.resume-jobs strong {
+    font-weight: bold;
+}
+
+.education-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+}
+
+.education-left p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    margin: 2px 0;
+}
+
+.education-right {
+    text-align: right;
 }

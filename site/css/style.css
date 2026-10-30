@@ -27,7 +27,7 @@
 .intro-section {
     text-align: center;
     width: 100%;
-    padding: 180px 0;
+    padding: 180px 0; 
     border-bottom: 1px solid #5F7B94;
     letter-spacing: 3px;
     background-color: lightblue
@@ -145,16 +145,10 @@ footer .links a {
 }
 
 .resume-section {
-    padding: 24px 0 45px;
     text-align: center;
     background-color: white;
     border-bottom: 1px solid #5F7B94;
     letter-spacing: 1px;
-}
-
-.resume-section .container-fulid{
-    padding-left: 30px;
-    padding-right: 30px;
 }
 
 .resume-section p {
@@ -248,4 +242,120 @@ footer .links a {
 
 .education-right {
     text-align: right;
+}
+
+.clips-section {
+    padding: 20px 28px 40px;
+    border-bottom: 1px solid #5F7B94
+}
+
+.clip-card {
+    display: block;
+    color:black;
+    text-decoration: none;
+    margin-top: 80px;
+}
+
+.clip-card img {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    display: block;
+}
+
+.clip-card h2 {
+    font-family: "Instrument Serif", serif;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.clip-card:hover h2 {
+    text-decoration: underline;
+    font-family: "Instrument Serif", serif;
+}
+
+.photo-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.clips-section {
+    padding: 20px 28px 40px;
+    border-bottom: 1px solid #5F7B94
+}
+
+.clip-card {
+    display: block;
+    color:black;
+    text-decoration: none;
+    margin-top: 80px;
+}
+
+.clip-card img {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    display: block;
+}
+
+.clip-card h2 {
+    font-family: "Instrument Serif", serif;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.clip-card:hover h2 {
+    text-decoration: underline;
+    font-family: "Instrument Serif", serif;
+}
+
+.publications-section {
+    padding: 20px 28px 40px;
+    border-bottom: 1px solid #5F7B94
+}
+
+.publication-card {
+    display: block;
+    color:black;
+    text-decoration: none;
+    margin-top: 80px;
+}
+
+.publication-card img {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    display: block;
+}
+
+.publication-card h2 {
+    font-family: "Instrument Serif", serif;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.publication-card:hover h2 {
+    text-decoration: underline;
+    font-family: "Instrument Serif", serif;
+}
+
+.publications-section {
+    padding: 20px 28px 40px;
+    border-bottom: 1px solid #5F7B94
+}
+
+.publication-card {
+    display: block;
+    color:black;
+    text-decoration: none;
+    margin-top: 80px;
 }

@@ -1,10 +1,21 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: "Instrument Serif", serif;
+    font-weight: 500;
+}
+
 .portfolio-name {
-    font-size: 28px;
+    font-family: "Instrument Serif", serif;
+    font-weight: 500;
+    font-size: 1.75em;
     letter-spacing: 1px;
 }
 
-.site-header {
-    width: 100%;
+header {
     border-bottom: 1px solid #5F7B94;
     padding: 15px 20px;
 }
@@ -26,48 +37,31 @@
 
 .intro-section {
     text-align: center;
-    width: 100%;
-    padding: 180px 0; 
+    padding: 180px 0;
     border-bottom: 1px solid #5F7B94;
     letter-spacing: 3px;
-    background-color: lightblue
+    background-color: lightblue;
 }
 
 .intro-section h1 {
     margin-bottom: 10px;
-    font-size: 75px;
+    font-size: 4.7em;
 }
 
-.intro-section p.welcome-text {
-    color: black;
-    margin: 0;
-    font-family: "Montserrat", sans-serif;
+.intro-section p {
     padding-top: 20px;
 }
 
 .about-section {
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 160px;
+    padding: 20px 0 160px 0;
     border-bottom: 1px solid #5F7B94;
 }
 
-.about-section .col-12.col-md-8 {
-    padding-left: 90px;
-    padding-right: 120px;
-}
-
-.about-section p {
-    line-height: 2.6;
-}
-
-.about-heading {
+h2 {
     text-align: center;
-    margin-top: 0px;
-    margin-bottom: 30px;
-    font-size: 48px;
+    margin: 30px 0;
+    font-size: 3em;
     font-family: "Instrument Serif", serif;
-    color: black;
 }
 
 .about-row {
@@ -77,8 +71,8 @@
     margin-bottom: 0;
 }
 
-.profile-col {
-    text-align: center;
+.about-section p {
+    line-height: 2.6;
 }
 
 .profile-photo {
@@ -89,46 +83,29 @@
     border: 1px solid #5F7B94;
 }
 
-.photo-caption {
+.profile-col {
+    text-align: center;
+}
+
+.profile-col p {
     margin-top: 10px;
     font-family: "Instrument Serif", serif;
     letter-spacing: 3px;
-    font-size: 30px;
-    color: black;
+    font-size: 1.8em;
 }
 
-h1 {
+footer p {
     font-family: "Instrument Serif", serif;
-    font-weight: 500;
-    font-style: normal;
-    color: black;
-}
-
-p {
-    font-family: "Montserrat", sans-serif;
     font-size: 16px;
-    color: black;
-}
-
-.welcome-text {
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-    color: black;
-}
-
-h4 {
-    font-size: 18px;
-    text-align: center;
-    font-family: "Instrument Serif", serif;
+    font-weight: bold;
+    text-transform: uppercase;
     color: black;
 }
 
 footer {
     background-color: #5F7B94;
-}
-
-footer h4 {
-    padding-top: 10px;
+    text-align: center;
+    padding: 1em 0;
 }
 
 footer .links {
@@ -141,12 +118,15 @@ footer .links {
 footer .links a {
     color: black;
     text-decoration: none;
-    font-size: 16px;
+}
+
+h3 {
+    font-size: 1.25em;
+    text-align: center;
+    font-family: "Instrument Serif", serif;
 }
 
 .resume-section {
-    text-align: center;
-    background-color: white;
     border-bottom: 1px solid #5F7B94;
     letter-spacing: 1px;
 }
@@ -160,36 +140,27 @@ footer .links a {
     margin: 0 0 35px;
     font-size: 48px;
     font-family: "Instrument Serif", serif;
-    color: black;
 }
 
-.resume-adress {
+.resume-intro p {
     margin-top: -20px;
     margin-bottom: 10px;
-    line-height: 1;
-    font-size: 12px;
+    font-size: .75em;
     letter-spacing: 1px;
+    text-align: center;
 }
 
-.resume-details p {
-    width: 100%;
-    max-width: none;
-    margin: 0 auto;
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    line-height: 1.6;
-    text-align: left;
+.resume-details p,
+.resume-jobs strong {
+    font-size: .875em;
 }
 
 .resume-category {
     margin-bottom: 22px;
-    text-align: left;
-    width: 100%;
 }
 
 .resume-category h3 {
-    font-family: "Instrument Serif", serif;
-    font-size: 22px;
+    font-size: 1.375em;
     font-weight: bold;
     text-transform: uppercase;
     text-align: left;
@@ -199,32 +170,23 @@ footer .links a {
 }
 
 .resume-jobs {
-    text-align: left;
     margin-bottom: 14px;
-    width: 100%;
-    font-size: 14px;
 }
 
 .resume-jobs h4 {
     font-family: "Instrument Serif", serif;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: bold;
     text-transform: uppercase;
     margin: 0 0 3px;
-    text-align: left;
 }
 
 .resume-jobs p {
-    font-family: "Montserrat", sans-serif;
     font-size: 13px;
     line-height: 1.4;
-    text-align: left;
     margin: 2px 0;
 }
 
-.resume-jobs strong {
-    font-weight: bold;
-}
 
 .education-left {
     display: flex;
@@ -235,8 +197,7 @@ footer .links a {
 }
 
 .education-left p {
-    font-family: "Montserrat", sans-serif;
-    font-size: 13px;
+    font-size: .8125em;
     margin: 2px 0;
 }
 
@@ -251,7 +212,7 @@ footer .links a {
 
 .clip-card {
     display: block;
-    color:black;
+    color: black;
     text-decoration: none;
     margin-top: 80px;
 }
@@ -284,37 +245,6 @@ footer .links a {
     margin-top: 10px;
 }
 
-.clips-section {
-    padding: 20px 28px 40px;
-    border-bottom: 1px solid #5F7B94
-}
-
-.clip-card {
-    display: block;
-    color:black;
-    text-decoration: none;
-    margin-top: 80px;
-}
-
-.clip-card img {
-    width: 100%;
-    aspect-ratio: 3 / 2;
-    object-fit: cover;
-    display: block;
-}
-
-.clip-card h2 {
-    font-family: "Instrument Serif", serif;
-    font-size: 26px;
-    font-weight: bold;
-    margin-top: 10px;
-    text-align: center;
-}
-
-.clip-card:hover h2 {
-    text-decoration: underline;
-    font-family: "Instrument Serif", serif;
-}
 
 .publications-section {
     padding: 20px 28px 40px;
@@ -323,7 +253,7 @@ footer .links a {
 
 .publication-card {
     display: block;
-    color:black;
+    color: black;
     text-decoration: none;
     margin-top: 80px;
 }
@@ -346,16 +276,4 @@ footer .links a {
 .publication-card:hover h2 {
     text-decoration: underline;
     font-family: "Instrument Serif", serif;
-}
-
-.publications-section {
-    padding: 20px 28px 40px;
-    border-bottom: 1px solid #5F7B94
-}
-
-.publication-card {
-    display: block;
-    color:black;
-    text-decoration: none;
-    margin-top: 80px;
 }
